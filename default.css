@@ -26,6 +26,10 @@ body {
   float: left;
 }
 
+.fl_right {
+  float: right;
+}
+
 .bold_500 {
   font-weight: 500;
 }

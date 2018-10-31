@@ -39,26 +39,37 @@ ul li {
   color: white;
   background: #0069ff;
 }
+.hamburger_menu {
+  display: none;
+}
+
+@media screen and (max-width: 970px) {
+  .navbar ul, .signup {
+    display: none
+  }
+  .hamburger_menu {
+    display: inline-block;
+    float: right;
+    padding-top: 10px;
+  }
+}
+
 /* jumbotron */
 
 .jumbotron {
   background-image: url('https://www.digitalocean.com/assets/media/homepage/hero-background-c9490927.svg');
   background-size: cover;
 }
-
 .jumbotron h1 {
   font-size: 62px;
 }
-
 .jumbotron p {
  opacity: 0.8;
 }
-
 button img {
   width: 23px;
   float: left;
 }
-
 .registration_box {
   margin: 40px 0 40px 80px;
   padding: 30px 0px;
@@ -67,15 +78,12 @@ button img {
   box-shadow: 0 10px 20px rgba(3,27,78,.1);
   border-radius: 5px;
 }
-
 .registration_box h2 {
   line-height: 45px;
 }
-
 .registration_box h2 span {
   color: #0069ff;
 }
-
 .form {
   height: 50px;
   padding: 0 16px;
@@ -83,21 +91,34 @@ button img {
   color: rgba(3,27,78,.7);
   border-radius: 5px;
 }
-
 .google_btn {
   box-shadow: 0 0 1px rgba(0,0,0,.12), 0 1px 1px rgba(0,0,0,.24);
   color: #757575;
 }
-
 .btn_create, .google_btn {
   transition: 0.5s;
 }
-
 .btn_create:hover {
   background: blue;
 }
-
 .google_btn:hover {
   background: #ECECEC;
   color: #757575;
+}
+
+@media screen and (max-width: 970px) {
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+  .registration_box {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .jumbotron h1 {
+    margin-top: 10px;
+  }
+  .jumbotron .margin_top_60 {
+    margin-top: 0;
+  }
 }
