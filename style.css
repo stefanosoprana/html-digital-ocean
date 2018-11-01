@@ -13,8 +13,7 @@
 .navbar a {
   line-height: 55px;
 }
-ul li {
-  display: inline-block;
+.navbar ul li {
   padding: 0 10px;
 }
 .navbar ul li a {
@@ -23,7 +22,7 @@ ul li {
   color: rgba(3,27,78,.7);
   font-size: 16px;
 }
-.navbar ul li a i {
+.navbar ul li a i, .footer_sponsor a i {
   font-size: 12px;
   padding: 4px;
 }
@@ -59,6 +58,7 @@ ul li {
 .jumbotron {
   background-image: url('https://www.digitalocean.com/assets/media/homepage/hero-background-c9490927.svg');
   background-size: cover;
+  margin-bottom: 0;
 }
 .jumbotron h1 {
   font-size: 62px;
@@ -121,4 +121,35 @@ button img {
   .jumbotron .margin_top_60 {
     margin-top: 0;
   }
+}
+
+/* sponsor */
+
+.sponsor {
+  background: #f3f5f9;
+}
+
+.sponsor_title {
+  font-size: 15px;
+  color: #031b4e;
+  opacity: 0.4;
+  letter-spacing: .05em;
+}
+
+.sponsor ul li{
+  margin: 20px;
+}
+
+.sponsor ul li img {
+  height: 80px;
+}
+
+.sponsor ul li:last-child img {
+  height: 35px;
+}
+
+.footer_sponsor a {
+  font-size: 16px;
+  text-decoration: none;
+  letter-spacing: .05em;
 }
