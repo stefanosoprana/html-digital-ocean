@@ -128,28 +128,37 @@ button img {
 .sponsor {
   background: #f3f5f9;
 }
-
 .sponsor_title {
   font-size: 15px;
   color: #031b4e;
   opacity: 0.4;
   letter-spacing: .05em;
 }
-
 .sponsor ul li{
   margin: 20px;
 }
-
 .sponsor ul li img {
   height: 80px;
 }
-
 .sponsor ul li:last-child img {
   height: 35px;
 }
-
 .footer_sponsor a {
   font-size: 16px;
   text-decoration: none;
   letter-spacing: .05em;
 }
+
+@media screen and (max-width: 768px) {
+  .sponsor ul li img {
+    height: 40px;
+  }
+  .sponsor ul li:last-child img {
+    height: 20px;
+  }
+  .sponsor ul {
+    text-align: left;
+  }
+}
+
+/* description */
