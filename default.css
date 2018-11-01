@@ -22,17 +22,29 @@ ul li {
 .bold_700 {
   font-weight: 700;
 }
-.font_p {
+.subtitle {
   font-size: 20px;
+}
+
+.p_description {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .h2_def {
   color: #031b4e;
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 700;
-  margin-top: 0;
+  padding: 15px;
 }
 
+.h3_def {
+  color: #031b4e;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
 /* Color */
 
 .color_white {
@@ -77,6 +89,10 @@ ul li {
   margin-top: 60px;
 }
 
+.margin_top_75 {
+  margin-top: 75px;
+}
+
 /* bottom */
 
 .margin_bottom_15 {
@@ -93,6 +109,10 @@ ul li {
 
 .margin_bottom_60 {
   margin-bottom: 60px;
+}
+
+.margin_bottom_75 {
+  margin-bottom: 75px;
 }
 
 /* Padding */
