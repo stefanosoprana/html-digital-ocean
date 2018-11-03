@@ -138,9 +138,6 @@ button img {
 
 /* sponsor */
 
-.sponsor {
-  background: #f3f5f9;
-}
 .sponsor_title {
   font-size: 15px;
   color: #031b4e;
@@ -245,5 +242,57 @@ button img {
   }
   .tab_icon {
     padding-left: 0;
+  }
+}
+
+/* reply */
+
+.reply {
+  position: relative;
+}
+.reply .screenshot img{
+  width: 736px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(3,27,78,.06);
+}
+
+.reply i {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 30px;
+}
+
+.chevron_left, .chevron_right {
+  position: absolute;
+  top: 48%;
+}
+
+.chevron_left {
+  left: 130px;
+}
+
+.chevron_right {
+  right: 130px;
+}
+.circle {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 300;
+}
+.img-responsive{
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 970px) {
+  .chevron_left, .chevron_right {
+    display: none;
+  }
+  .reply p.subtitle br {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .img-responsive img {
+    height: 50px;
   }
 }

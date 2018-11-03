@@ -59,6 +59,10 @@ ul li {
   background-color: rgb(0, 105, 255);
 }
 
+.bg_grey {
+  background: #f3f5f9;
+}
+
 /* Float */
 
 .fl_left {
