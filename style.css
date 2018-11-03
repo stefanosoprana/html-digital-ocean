@@ -243,6 +243,9 @@ button img {
   .tab_icon {
     padding-left: 0;
   }
+  .tab_icon div.box:nth-child(2) {
+    margin-bottom: 0;
+  }
 }
 
 /* reply */
@@ -304,5 +307,56 @@ button img {
     width: 100%;
     margin-bottom: 30px;
     text-align: center;
+  }
+}
+
+/* Table */
+
+.box_table {
+  background-image: url('https://www.digitalocean.com/assets/media/homepage/data-center-map-8227272d.svg'),linear-gradient(180deg,#0047c6 0,#001d99);
+  background-size: cover;
+  background-position: 50%;
+  margin-bottom: 0;
+}
+.box_table h2 {
+  color: white;
+}
+.line {
+  font-size: 13px;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+.line:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.second_column {
+  opacity: 0.6;
+  margin-left: 70px;
+}
+.third_column a {
+  text-decoration: none;
+  color: #00d7d2;
+}
+.third_column a i {
+  font-size: 11px;
+  margin-left: 6px;
+}
+.line:last-child {
+  border-bottom: 0
+}
+
+@media screen and (max-width: 970px) {
+  .second_column {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .box_table .col-xs-6 {
+    width: 100%;
+  }
+  .box_table .col-xs-6:first-child .line:last-child {
+    border-bottom: 1px solid white
   }
 }
