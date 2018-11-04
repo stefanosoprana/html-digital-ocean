@@ -42,7 +42,7 @@
   display: none;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 992px) {
   .navbar ul, .signup {
     display: none
   }
@@ -106,7 +106,7 @@ button img {
   color: #757575;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 992px) {
   .jumbotron h1 {
     font-size: 40px;
   }
@@ -210,7 +210,7 @@ button img {
   padding-top: 16px;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 992px) {
   .left_selector {
     width: 100%;
   }
@@ -283,7 +283,7 @@ button img {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 992px) {
   .chevron_left, .chevron_right {
     display: none;
   }
@@ -344,7 +344,7 @@ button img {
   border-bottom: 0
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 992px) {
   .second_column {
     margin-left: 40px;
   }
@@ -408,4 +408,46 @@ button img {
   padding: 10px 35px;
   background: white;
   font-size: 16px;
+}
+
+ /* Footer */
+
+ .footer {
+  background-color: #010e28;
+  color: hsla(0,0%,100%,.5);
+ }
+.footer img {
+  width: 50px;
+}
+.social i {
+  font-size: 21px;
+  margin: 0 5px;
+}
+.footer ul li {
+  list-style: none;
+  line-height: 21px;
+  margin-top: 7px;
+}
+.footer h4 {
+  font-size: 14px;
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+  color: hsla(0,0%,100%,.5);
+}
+.footer a:hover, i:hover  {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .footer .col-sm-12 {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .footer ul {
+    margin: 30px auto;
+  }
 }

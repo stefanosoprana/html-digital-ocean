@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-ul li {
+.inline_block li {
   display: inline-block;
 }
 
@@ -47,6 +47,7 @@ ul li {
   margin-top: 8px;
   margin-bottom: 16px;
 }
+
 /* Color */
 
 .color_white {
