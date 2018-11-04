@@ -5,6 +5,21 @@
   line-height: 65px;
   box-shadow: 0 2px 4px rgba(3,27,78,.1);
   margin-bottom: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  position: fixed;
+  z-index: 1;
+}
+.message i {
+  position: fixed;
+  font-size: 40px;
+  color: rgb(0, 128, 255);
+  z-index: 1;
+  bottom: 35px;
+  right: 35px;
+}
+.message i:hover {
+  color: rgb(0, 128, 255);
 }
 .navbar img {
   width: 200px;
@@ -59,6 +74,7 @@
   background-image: url('https://www.digitalocean.com/assets/media/homepage/hero-background-c9490927.svg');
   background-size: cover;
   margin-bottom: 0;
+  padding-top: 65px;
 }
 .jumbotron h1 {
   font-size: 62px;
@@ -80,6 +96,7 @@ button img {
 }
 .registration_box h2 {
   line-height: 45px;
+  margin-top: 0;
 }
 .registration_box h2 span {
   color: #0069ff;
@@ -408,8 +425,12 @@ button img {
   padding: 10px 35px;
   background: white;
   font-size: 16px;
+  transition: 0.5s;
 }
 
+.pre-footer .btn-primary:hover {
+  opacity: 0.9;
+}
  /* Footer */
 
  .footer {
