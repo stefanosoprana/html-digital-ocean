@@ -133,7 +133,7 @@ button img {
 }
 @media screen and (max-width: 750px) {
   .jumbotron h1 {
-    margin-top: 10px;
+    padding-top: 40px;
   }
   .jumbotron .registration_box {
     padding: 20px 0;
@@ -272,22 +272,18 @@ button img {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(3,27,78,.06);
 }
-
 .reply i, .citation .chevron_left i, .citation .chevron_right i {
   font-weight: 700;
   font-size: 32px;
   padding: 30px;
 }
-
 .chevron_left, .chevron_right {
   position: absolute;
   top: 48%;
 }
-
 .chevron_left {
   left: 130px;
 }
-
 .chevron_right {
   right: 130px;
 }
@@ -427,7 +423,6 @@ button img {
   font-size: 16px;
   transition: 0.5s;
 }
-
 .pre-footer .btn-primary:hover {
   opacity: 0.9;
 }
