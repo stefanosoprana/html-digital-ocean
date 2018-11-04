@@ -78,9 +78,6 @@ button img {
   box-shadow: 0 10px 20px rgba(3,27,78,.1);
   border-radius: 5px;
 }
-#sizeh2_registration {
-  font-size: 30px;
-}
 .registration_box h2 {
   line-height: 45px;
 }
@@ -398,4 +395,17 @@ button img {
     width: auto;
     height: auto;
   }
+}
+
+/* Pre-Footer */
+
+.pre-footer {
+  background-color: #0069ff;
+  background-image: linear-gradient(180deg,#0242bc 0,#001e9a);
+}
+.pre-footer .btn-primary {
+  color: #0069ff;
+  padding: 10px 35px;
+  background: white;
+  font-size: 16px;
 }

@@ -37,7 +37,9 @@ ul li {
   font-weight: 700;
   padding: 15px;
 }
-
+.h2_size30 {
+  font-size: 30px;
+}
 .h3_def {
   color: #031b4e;
   font-size: 20px;
